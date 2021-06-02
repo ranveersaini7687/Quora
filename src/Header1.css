@@ -1,0 +1,45 @@
+body{
+  background-color: #d30000;
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px; 
+  border-bottom: solid white .5px;
+}
+
+.header a{
+  color: white;
+  text-decoration: none;
+}
+
+.header_logo{
+  margin: 0 10%;
+}
+
+.header_nav{
+  display: flex;
+  align-items:center;
+  justify-content: space-around;
+  object-fit: contain;
+  margin: auto 20px;
+}
+
+.header_option{
+  margin: auto 20px;
+}
+
+
+.header_option h4:hover{
+  color: black;
+  cursor: pointer;
+}
+
+.header_logo h2:hover{
+  color: black;
+  cursor: pointer;
+} 
